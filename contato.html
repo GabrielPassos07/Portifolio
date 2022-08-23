@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Porfólio do Lucas</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">SOBRE MIM</a></li>
+        <li><a href="projetos.html">PROJETOS</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+      </ul>
+    </nav>
+
+    <header class="topo">
+      <h1 class="titulo">ENTRE EM CONTATO COMIGO! 👨‍💻👨‍💻👨‍💻</h1>
+    </header>
+
+    <main class="corpo">
+
+      <div class="linha">
+        <div class="coluna hover">
+          <a href="https://wa.me/5511957163187" target="blank">
+        <figure>
+      <img src="img/zapgif.gif" alt="WHATSAPP" height="200" width="200"/>
+         </figure></a>
+      <h4 class="titulo-info">WHATSAPP</h4>
+      <p class="info">Para me encontrar no Whatsapp.<br>Clique na Imagem</p>
+        </div>
+      <div class="coluna hover">
+        <a href="https://www.github.com" target="blank">
+        <figure>
+        <img src="img/logos/git2.png" alt="GITHUB" height="200" width="200"/>
+         </figure></a>
+        <h4 class="titulo-info">GITHUB</h4>
+        <p class="info">Para me encontrar no Github.<br>Clique na Imagem</p>
+      </div>
+        <div class="coluna hover">
+          <a href="https://www.linkedin.com" target="blank">
+        <figure>
+          <img src="img/linkgif2.gif" alt="LINKEDIN" height="200" width="200"/>
+        </figure></a>
+        <h4 class="titulo-info">LINKEDIN</h4></a>
+      <p class="info">Para me encontrar no Linkedin.<br>Clique na Imagem</p>
+        </div>
+        </div>
+        <h2 class="titulo"> OU PREENCHA ESSE FORMULÁRIO, QUE EU TE CHAMO!</h2>
+        <form action="#" method="POST" class="formulario">
+          <div class="linha">
+            <div class="coluna">
+              <label for="nomeTxt">SEU NOME</label>
+              <input type="text" name="nomeTxt" id="nomeTxt" class="campo" placeholder="Digite seu Nome" maxlength="50" required/>
+              <span id="ajudaNome"></span>
+            </div>
+            <div class="coluna">
+              <label for="emailTxt">SEU EMAIL</label>
+              <input type="text" name="emailTxt" id="emailTxt" class="campo" placeholder="Digite seu Email" maxlength="60" required/>
+              <span id="ajudaEmail"></span>
+            </div>
+          </div>
+
+          <div class="linha">
+          <div class="coluna">
+            <label for="whatsappTxt">SEU WHATSAPP</label>
+            <input type="number" name="whatsappTxt" id="whatsappTxt" class="campo" placeholder="Digite seu Whatsapp" maxlength="13" required/>
+            <span id="ajudaWhatsapp"></span>
+          </div>
+          <div class="coluna">
+            <label for="assuntoTxt">ASSUNTO</label>
+            <input type="text" name="assuntoTxt" id="assuntoTxt" class="campo" placeholder="Digite seu Assunto" maxlength="50" required/>
+          </div>
+          </div>
+
+          <div class="linha">
+              <div class="coluna">
+                <label for="descTxt">UM BREVE RESUMO</label>
+                <textarea class="campo" name="descTxt" id="descTxt"rows="6" placeholder="UM BREVE RESUMO" maxlength="255"></textarea>
+              </div>
+
+          </div>
+          <div class="linha">
+            <div class="coluna">
+              <button type="submit" id="btn">ENVIAR</button>
+            </div>
+          </div>
+        </form>
+
+    </main>
+      
+    <footer class="rodape">
+      <p>2022 - Desenvolvido por mim 👨‍💻</p>
+    </footer>
+  </div>
+</body>
+<script src="script.js" charset=utf-8></script>
+</html>
